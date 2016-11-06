@@ -1,8 +1,15 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+.logo-div {
+  background-color: #57bf8f;
+  margin-right: 5px;
+  border-radius: 100%;
+  padding: 0.2em; }
+  .logo-div > img {
+    width: 15px; }
 
-a {
-  color: #00B7FF; }
+.logo-div:hover {
+  background-color: #000;
+  margin-right: 5px;
+  border-radius: 100%;
+  padding: 0.2em; }
 
 /*# sourceMappingURL=style.css.map */

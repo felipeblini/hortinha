@@ -58,6 +58,10 @@ module.exports = function(app, config) {
     res.render('hortinha-360', { layout: '' })
   });
 
+  app.use('/lojinha', function (req, res, next) {
+      res.render('lojinha');
+    });
+
   app.use(function (req, res, next) {
     var err = new Error('Not Found');
     err.status = 404;

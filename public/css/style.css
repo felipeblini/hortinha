@@ -4,12 +4,10 @@
   border-radius: 100%;
   padding: 0.2em; }
   .logo-div > img {
-    width: 15px; }
-
-.logo-div:hover {
-  background-color: #000;
-  margin-right: 5px;
-  border-radius: 100%;
-  padding: 0.2em; }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .2em;
+    width: 30px; }
 
 /*# sourceMappingURL=style.css.map */

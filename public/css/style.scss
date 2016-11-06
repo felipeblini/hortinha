@@ -5,13 +5,10 @@
     padding: 0.2em;
 
     > img {
-      width: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      padding: .2em;
+      width: 30px;
     }
-}
-
-.logo-div:hover {
-    background-color: #000;
-    margin-right: 5px;
-    border-radius: 100%;
-    padding: 0.2em;
 }

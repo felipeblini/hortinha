@@ -1,0 +1,18 @@
+.logo-div {
+  background-color: #57bf8f;
+  margin-right: 5px;
+  border-radius: 100%;
+  padding: 0.2em; }
+  .logo-div > img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .2em;
+    width: 30px; }
+
+.box-shadow {
+  -webkit-box-shadow: 10px 10px 20px -6px rgba(0, 0, 0, 0.77);
+  -moz-box-shadow: 10px 10px 20px -6px rgba(0, 0, 0, 0.77);
+  box-shadow: 10px 10px 20px -6px rgba(0, 0, 0, 0.77); }
+
+/*# sourceMappingURL=style.css.map */

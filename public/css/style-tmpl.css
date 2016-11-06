@@ -785,6 +785,10 @@ hr.largehr {
     background: url(../img/preview.jpg) repeat-x scroll center top #563C09;
 }
 
+.public-profile-wrap-2 {
+    background: url(../img/preview2.jpg) repeat-x scroll center top #563C09;
+}
+
 .index-wrap {
     background: url(../img/cover.jpg) repeat-x scroll center top #F6F9FC;
 }

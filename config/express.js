@@ -46,6 +46,18 @@ module.exports = function(app, config) {
     res.render('public-profile')
   });
 
+  app.use('/public-profile-2', function (req, res, next) {
+    res.render('public-profile-2')
+  });
+
+  app.use('/public-profile-2.html', function (req, res, next) {
+    res.render('public-profile-2')
+  });
+
+  app.use('/hortinha-da-debora', function (req, res, next) {
+    res.render('hortinha-360', { layout: '' })
+  });
+
   app.use(function (req, res, next) {
     var err = new Error('Not Found');
     err.status = 404;

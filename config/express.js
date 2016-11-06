@@ -37,6 +37,14 @@ module.exports = function(app, config) {
   controllers.forEach(function (controller) {
     require(controller)(app);
   });
+  
+  app.use('/public-profile', function (req, res, next) {
+    res.render('public-profile')
+  });
+
+  app.use('/public-profile.html', function (req, res, next) {
+    res.render('public-profile')
+  });
 
   app.use(function (req, res, next) {
     var err = new Error('Not Found');

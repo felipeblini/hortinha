@@ -45,7 +45,7 @@ body {
     letter-spacing: 0.3px;
     line-height: 28px;
     font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background: url(../img/cover.jpg) repeat-x scroll center top #F6F9FC;
+    /*background: url(../img/cover.jpg) repeat-x scroll center top #F6F9FC;*/
 }
 
 body.nobg {
@@ -779,6 +779,14 @@ hr.largehr {
     position: relative;
     margin: 40px auto 0;
     padding: 80px 0 10px;
+}
+
+.public-profile-wrap {
+    background: url(../img/preview.jpg) repeat-x scroll center top #563C09;
+}
+
+.index-wrap {
+    background: url(../img/cover.jpg) repeat-x scroll center top #F6F9FC;
 }
 
 .single-wrap .content-top {

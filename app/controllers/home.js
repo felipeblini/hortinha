@@ -3,6 +3,8 @@ var express = require('express'),
 
 module.exports = function (app) {
   app.use('/', router);
+  app.use('/index', router);
+  app.use('/index.html', router);
 };
 
 router.get('/', function (req, res, next) {
